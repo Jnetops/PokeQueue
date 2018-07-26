@@ -1,0 +1,479 @@
+#profile-picture {
+  height: 200px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.group-image-div {
+  height: 200px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.group-raid-image {
+  height: 200px;
+  width: 200px;
+}
+
+#remove-friends-title {
+  display: inline;
+}
+
+button.close {
+  height: auto;
+}
+
+button {
+  background-color: black !important;
+  color: white !important;
+  border: 1px solid black !important;
+  height: 39px;
+}
+button:hover {
+  border: 1px solid white !important;
+}
+
+.event-li.inactive-event, .group-li.inactive-group, .friend-li.inactive-friends, .inactive {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ok */
+#find-group, #find-event {
+  width: 80%;
+}
+
+.panel.panel-heading.friends-heading, .panel.panel-heading.details-heading, .panel.panel-heading.events-heading, .panel.panel-heading.group-heading, .panel-heading.group, .panel-heading.event {
+  margin: 0;
+  text-align: right;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid black;
+  border-radius: 0px;
+}
+
+.event-date, .group-time {
+  margin-top: 10px;
+}
+
+.panel.panel-body.friends-body, .panel.panel-body.friends-body-user, .panel.panel-body.details-body, .panel.panel-body.events-body, .panel.panel-body.group-body {
+  border: 1px solid black;
+  border-radius: 0px;
+}
+
+.panel.panel-footer.friends-footer {
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-radius: 0px;
+}
+
+.panel.panel-body.friends-body, .panel.panel-body.friends-body-user, .panel.panel-body.group-body, .panel.panel-body.events-body {
+  padding: 0;
+}
+
+.view-group, .view-event {
+  width: 100%;
+}
+
+li.friends-li {
+  margin-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 10px;
+  min-height: 100px;
+}
+
+.event-image, .group-image {
+  width: 100%;
+  margin: 0 auto;
+  height: 200px;
+}
+
+.group-image-pokemon {
+  width: 50%;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, 10%);
+}
+
+.event-image-pokemon {
+  width: 50%;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, 10%);
+}
+
+.col-md-12.poke-catch {
+  height: 200px;
+  width: 100%;
+  border: 1px solid black;
+  background-size: cover;
+}
+
+.raid-group-image {
+  width: 120px;
+  margin: 0 auto;
+  height: 120px;
+}
+
+.panel.panel-heading.profile-level {
+  border-radius: 0;
+}
+
+#trainer-level-display {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  margin: 0;
+  color: white;
+}
+
+#trainer-name-display {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: white;
+}
+
+.col-md-10.account-col {
+  padding: 0;
+  height: 44px;
+}
+
+#col-acc-info {
+  margin-top: 10px;
+}
+
+#username, #email, #password {
+  margin-bottom: 15px;
+}
+
+.col-md-12.edit-button-col, .col-md-2.edit-button-col {
+  padding: 0;
+}
+
+.modal-body {
+  height: 450px;
+  overflow-y: auto;
+}
+
+#profile-panel-body {
+  margin-bottom: 0;
+  border: 1px solid black;
+}
+
+.horizontal-break {
+  background-color: black;
+  height: 1px;
+}
+
+.col-md-10.enter-password, #password-submit, #team-submit, #name-submit, #level-submit, #location-submit {
+  display: none;
+  padding: 0;
+}
+
+.col-md-6.password {
+  padding: 0;
+}
+
+#enter-password-input, #re-enter-password-input {
+  width: 90%;
+}
+
+.friend-picture {
+  height: 66px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black !important;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+.panel.panel-heading.friends-heading, .panel.panel-body.friends-body, .panel.panel-footer.friends-footer, .panel.panel-body.details-body, .panel.panel-heading.details-heading, .panel.panel-body.notification-body, .panel.panel-heading.notification-heading {
+  margin-bottom: 0px;
+}
+
+input.friends-checkbox {
+
+  margin-bottom: 15px !important;
+  margin-top: 15px !important;
+}
+
+.row.friends-first-row {
+  margin-top: 20px;
+}
+
+.friends-ul, .friends-ul-user, .group-ul, .events-ul {
+  list-style: none;
+  padding: 0;
+  overflow-y: auto;
+  word-wrap: break-word;
+  min-height: 200px;
+}
+
+.account-ul {
+  list-style: none;
+  padding: 0;
+  overflow-y: break-word;
+}
+.col-md-10.account-col {
+  padding-left: 0;
+}
+
+.btn.btn-default.add-friend {
+  float: right;
+  margin-top: 10px;
+  width: 150px;
+}
+
+.panel.pokemon, .panel.raid, .panel.event, .panel.group {
+  margin-bottom: 2px;
+  border-radius: 0px;
+}
+
+.col-md-12.team-image {
+   background-repeat: no-repeat;
+   height: 100px;
+   background-size: 30% 100%;
+   border-style: solid;
+   border-width: 1px;
+   border-color: black;
+}
+
+#remove-friends {
+  width: 100%;
+}
+
+#edit-friends {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid white;
+}
+
+#edit-friends:hover {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.team, #trainer-team {
+  margin: 10px 0px;
+}
+
+.col-md-12.trainer-details {
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.col-md-12.trainer-details.name {
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+#trainer-name-input, #trainer-team-select, #trainer-level-select, div.location-inputs {
+  display: none;
+  height: 39px;
+  padding: 0px;
+}
+
+#trainer-name-display, #trainer-name-title, #trainer-level-display, #trainer-level-title, #location-title, #location-display {
+  display: inline;
+  text-decoration: none;
+}
+
+button#password-submit,  button#password-edit, button#team-submit,  button#team-edit, button#name-submit,  button#name-edit, button#level-submit,  button#level-edit, button#location-submit,  button#location-edit {
+  width: 100%;
+  height: 39px;
+}
+
+@media all and (max-width: 991px) {
+  button#password-submit,  button#password-edit, button#team-submit,  button#team-edit, button#name-submit,  button#name-edit, button#level-submit,  button#level-edit, button#location-submit,  button#location-edit {
+    width: 100%;
+    min-width: 158px;
+    height: 39px;
+  }
+
+  #trainer-team-expand {
+    margin: 10px 0px;
+  }
+
+  #trainer-level-expand {
+    margin: 10px 0px;
+  }
+
+  .col-md-6.height, .col-md-12.height {
+    min-height: 100px;
+  }
+
+  .col-md-6.height2, .col-md-12.height2 {
+    min-height: 100px;
+  }
+
+  button#password-submit, button#password-edit {
+    margin-bottom: 20px;
+  }
+
+  button#password-submit {
+    margin-top: 20px;
+  }
+
+  #enter-password-input, #re-enter-password-input {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .col-md-6.friend-modal-col {
+    width: 98%;
+    margin: 0.5% 0.5%;
+    border: 1px solid black;
+    padding-top: 10px;
+  }
+
+  .events-ul {
+    height: 617px;
+  }
+
+  .group-ul {
+    min-height: 450px;
+  }
+
+  .friends-ul-user {
+    min-height: 200px;
+    max-height: 445px;
+  }
+  div.location-inputs {
+    margin-bottom: 60px;
+  }
+
+
+  #location-state-input, #location-city-input {
+    height: 32px;
+    width: 100%;
+    margin: 5px 0px;
+    border: 1px solid black;
+    padding-left: 10px;
+  }
+  .col-md-12.location-inputs {
+    margin-bottom: 0px;
+    height: 140px;
+  }
+
+  .col-md-2.edit-button-col {
+    height: 59px;
+  }
+
+  .col-md-10.account-col {
+    height: 64px;
+  }
+
+  #trainer-team, #trainer-level {
+    padding-top: 10px;
+  }
+  #trainer-team-expand, #trainer-level-expand {
+    padding: 0px;
+  }
+}
+
+@media all and (min-width: 991px) {
+  .account-li {
+    padding-left: 10px;
+  }
+
+  button#password-submit, button#password-edit {
+    margin-bottom: 15px;
+  }
+
+  #trainer-team-expand {
+    margin: 0px 0px;
+  }
+
+  #trainer-level-expand {
+    margin: 0px 0px;
+  }
+
+  .col-md-6.height, .col-md-12.height {
+    min-height: 120px;
+  }
+
+  .col-md-6.height2, .col-md-12.height2 {
+    min-height: 150px;
+  }
+
+  .panel.panel-body.details-body {
+    height: 445px;
+  }
+
+  .panel.panel-body.friends-body-user {
+    height: 609px;
+  }
+
+  .friends-ul-user {
+    height: 603px;
+  }
+
+  .panel.panel-body.friends-body {
+    height: 384px;
+  }
+
+  .friends-ul {
+    height: 385px;
+  }
+
+  .events-ul, .group-ul {
+    height: 605px;
+  }
+
+  .panel.panel-body.group-body, .panel.panel-body.events-body {
+    height: 609px;
+  }
+
+  .panel-heading.event, .panel-heading.group {
+    height: 94px;
+  }
+
+  .col-md-6.friend-modal-col {
+    width: 48%;
+    margin: 0.5% 0.5%;
+    border: 1px solid black;
+    padding-top: 10px;
+  }
+  div.location-inputs {
+    margin-bottom: 20px;
+  }
+
+  #team-col, #team-col-edit {
+    margin-bottom: 10px;
+  }
+
+  #location-state-input {
+    margin-left: -15px;
+    height: 39px;
+    width: 100%;
+    border: 1px solid black;
+    padding-left: 10px;
+  }
+
+  #location-city-input {
+    height: 39px;
+    width: 100%;
+    border: 1px solid black;
+    padding-left: 10px;
+  }
+
+  .col-md-5.loc {
+    padding: 0;
+  }
+}

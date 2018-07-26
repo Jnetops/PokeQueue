@@ -1,0 +1,179 @@
+.col-md-3 {
+  text-align: center;
+}
+
+html, body, iframe {
+    touch-action: auto;
+}
+
+.col-md-12.error {
+  margin-top: 100px;
+}
+
+.col-md-6.nav-col {
+  padding: 0;
+}
+
+#raid-tracker-col {
+  min-height: 300px;
+}
+
+img#raid-tracker-image {
+  height: 100px;
+  width: 100px;
+}
+
+select {
+  width: 100%;
+  height: 25px;
+  text-align-last:center;
+}
+
+option {
+  text-align-last:center;
+  text-align: center;
+}
+
+#raid-filter-button {
+  width: 100%;
+  height: 50px;
+  border: 1px solid white;
+  background-color: #000;
+  color: #fff;
+}
+
+#raid-filter-button:hover {
+  width: 100%;
+  height: 50px;
+  border: 1px solid black;
+}
+
+.panel.raid-panel {
+  border: 1px solid black !important;
+}
+
+.panel-heading.raid-heading {
+  border: 1px solid transparent !important;
+  padding: 0px;
+}
+
+.panel-footer.raid-footer {
+  border-top: 1px solid black;
+  height: 54px;
+}
+
+#nav-button {
+  width: 98%;
+  border: 1px solid black;
+  background-color: #000;
+  color: #fff;
+}
+
+#nav-button:hover {
+  width: 100%;
+  border: 1px solid black;
+  background-color: #fff;
+  color: #000;
+}
+
+#create-raid, #specific-raid, #all-raids {
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+#create-raid:hover, #specific-raid:hover, #all-raids:hover {
+  border: 1px solid black;
+}
+
+.btn.btn-default.create-raid-group {
+  width: 100%;
+  white-space: normal;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid black;
+  height: 34px;
+}
+
+h5#h5-create {
+  margin: 0px;
+}
+
+
+
+#all-raids {
+  margin-bottom: 10px;
+}
+
+.btn.btn-default.create-raid-group:hover {
+  border: 1px solid white;
+}
+
+.col-md-6.raidtracker {
+  padding: 5px;
+}
+
+div.row.filter-options {
+  margin-bottom: 20px;
+}
+
+div.row.poketracker {
+  margin-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+div.row {
+  width: 100%;
+  margin: 0;
+}
+
+b i h5 {
+  font-weight: bold;
+}
+
+/*.panel {
+  border: 1px solid #ccc !important;
+}*/
+
+.panel-heading {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #ddd !important;
+}
+
+.panel-footer {
+  background-color: #fff !important;
+}
+
+.panel-body {
+  padding: 0;
+}
+
+.row.raidtracker {
+  margin-top: 20px;
+}
+
+@media all and (min-width: 991px) {
+}
+
+@media all and (max-width: 991px) {
+  #raid-filter-button {
+    margin-top: 15px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid white;
+  }
+
+  #raid-filter-button:hover {
+    margin-top: 15px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+  }
+
+  #nav-button {
+    margin-bottom: 10px;
+  }
+}

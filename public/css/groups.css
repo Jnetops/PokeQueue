@@ -1,0 +1,260 @@
+@media all and (max-width: 991px) {
+  .col-md-12.queue-time {
+    margin-top: -20px;
+    height: 66px;
+  }
+
+  h3.group-time.text-center {
+    padding-top: 20px;
+  }
+}
+
+h1.no-group.text-center {
+  margin-top: 100px;
+}
+
+
+hr {
+  background-color: black;
+  color: black;
+  height: 10px !important;
+  border: 0;
+  margin-bottom: 5px !important;
+}
+
+a.btn.btn-primary.btn-lg.create-group-button {
+  border: 1px solid white;
+  background-color: #000;
+  color: #fff;
+}
+
+a.btn.btn-primary.btn-lg.create-group-button:hover {
+  border: 1px solid black;
+}
+
+.row.controls {
+  margin-bottom: 30px;
+  padding: 0px 15px;
+}
+
+.col-md-6.nav-col {
+  padding: 0;
+}
+
+.col-md-12.group-col-12 {
+  padding: 0px;
+  margin: 0px;
+}
+
+.no-group {
+  margin-top: 10px;
+}
+
+#nav-button {
+  width: 98%;
+  border: 1px solid white;
+  background-color: #000;
+  color: #fff;
+}
+
+#nav-button:hover {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.row.group-row {
+  border-left: 1px;
+  border-right: 1px;
+  border-bottom: 0.5px;
+  border-top: 0.5px;
+  border-style: solid;
+  border-color: black;
+  margin-bottom: 20px;
+}
+
+.panel.panel-default {
+  border: 0px solid transparent;
+}
+
+.col-md-12.group-sub-col-12 {
+  padding: 0px 30px;
+  margin: 0px;
+}
+
+.col-md-12.filter-col {
+  margin-bottom: 15px;
+}
+
+.col-md-3.filter-col-3 {
+  margin-bottom: 5px;
+}
+
+#distance {
+  margin: 20px 0px;
+  height: 30px;
+  width: 90px;
+}
+
+#filter {
+  width: 100%;
+  border: 1px solid white;
+  color: #fff;
+  background-color: #000;
+}
+
+#filter:hover {
+  width: 100%;
+  border: 1px solid black;
+}
+
+#teams, #pokemon-farming, #nest-farming {
+  display: none;
+}
+
+.panel-body.group-body {
+  padding: 0px 15px;
+}
+
+.top-group-li {
+  margin-top: 20px;
+}
+
+.btn.btn-default.view-group {
+  width: 95%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid white;
+  background-color: #000;
+  color: #fff;
+}
+
+.btn.btn-default.view-group:hover {
+  border: 1px solid black;
+}
+
+a.page-link {
+  width: 82px;
+}
+
+.group-break {
+  color: #000000;
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.admin-image {
+  height: 64px;
+  width: 128px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.text-long {
+  word-break: break-all;
+}
+
+.group-li {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.group-text-cols {
+  margin-bottom: 30px;
+}
+
+.group-list {
+  padding: 0;
+  margin-bottom: 0px;
+  list-style: none;
+}
+
+.group-image {
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+
+.group-image.pokemon {
+  width: 50%;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, 10%);
+  border: 0px solid black;
+}
+
+.col-md-12.poke-catch {
+  height: 200px;
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid black;
+  background-size: cover;
+}
+
+.raid-group-image {
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.group-description {
+  word-break: break-all;
+
+}
+
+.group-location {
+
+}
+
+.group-description {
+
+}
+
+.col-md-12.group-col {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-style: groove;
+  border-color: black;
+  border-width: 1px;
+  background-color: #d6d6c2;
+
+}
+
+.group-time {
+  margin-bottom: 20px;
+}
+
+.col-md-12.queue-time {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+}
+
+.group-users {
+  margin-bottom: 0px;
+
+}
+
+h1.group-title {
+  margin-bottom: 30px;
+}
+
+.btn.create-group-button {
+  width: 100%;
+}
+
+.col-md-12.button-col {
+  margin-bottom: 20px;
+  height: 45px;
+  padding: 0px 30px;
+}
+
+@media all and (max-width: 991px) {
+  #nav-button {
+    margin-bottom: 10px;
+  }
+}

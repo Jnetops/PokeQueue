@@ -1,0 +1,162 @@
+body {
+  overflow-x: hidden;
+}
+
+.alert h4.error-message {
+  margin: 20px 0px;
+  color: black;
+}
+
+select, input, textarea, button {
+  border: 1px solid black !important;
+  border-radius: 0px !important;
+  padding-left: 15px;
+}
+
+textarea {
+  resize: none;
+}
+
+.btn.btn-default.raidtracker-add {
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: 1px solid white !important;
+}
+
+.btn.btn-default.raidtracker-add:hover {
+  border: 1px solid black !important;
+}
+
+/* Above this is stars css */
+
+img.raid-tracker-image {
+  width:80%;
+  height: 200px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.help-block {
+  color: red !important;
+}
+
+select, input {
+  height: 32px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.row-margin {
+  margin-top: 35px;
+  margin-bottom: 45px;
+}
+
+input#gym_lat, input#gym_lon, input#raid_expire_hour, input#raid_expire_minute, .btn.btn-default.raidtracker-add {
+  display: block;
+}
+
+input#gym_lat, input#gym_lon, input#raid_expire_hour, input#raid_expire_minute {
+  width: 100%;
+}
+
+select#pokemon_id {
+  width: 100%;
+  margin: 0 auto;
+}
+
+select#pokemon_id, input#gym_lat, input#gym_lon {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+input#raid_expire_hour, input#raid_expire_minute, input#gym_lat, input#gym_lon {
+  margin: 0 auto !important;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+}
+
+label {
+  margin-top: 10px;
+}
+
+@media all and (max-width: 991px) {
+  input#raid_expire_hour, input#raid_expire_minute, input#gym_lat, input#gym_lon {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    margin: 0 auto !important;
+  }
+
+  #address, #city, #state {
+    width: 100%;
+  }
+
+  div.large-padding {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .col-md-12.submit {
+    margin: 0 auto;
+    width: 72%;
+    padding: 0px;
+  }
+}
+
+@media all and (min-width: 991px) {
+
+}
+
+#city, #state {
+  width: 100%;
+  margin: 0 auto;
+}
+
+div.large-padding {
+  padding-left: 10.75%;
+  padding-right: 10.75%;
+}
+
+#address, #city, #state {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 30px;
+}
+
+#address {
+  width: 100%;
+}
+
+.panel.panel-footer.raid {
+  margin: 0;
+  padding: 0;
+  height: 54px;
+  border: 1px solid black;
+  border-top: 0px;
+  padding-top: 10px;
+}
+
+.panel.panel-body.raid {
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.panel.panel-heading.raid {
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid black;
+  border-bottom: 0px;
+  height: 79px;
+  color:white;
+  background-color: black;
+}

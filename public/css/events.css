@@ -1,0 +1,264 @@
+
+.btn.btn-default.view-event {
+  width: 95%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid white;
+  background-color: #000;
+  color: #fff;
+}
+
+h1.no-event.text-center {
+  margin-top: 100px;
+}
+
+.col-md-6.nav-col {
+  padding: 0;
+}
+
+.btn.btn-default.view-event:hover {
+  border: 1px solid black;
+}
+
+a.page-link {
+  width: 82px;
+}
+
+.date {
+  color: white;
+  background-color: black;
+  height: 100px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin-top: 20px;
+}
+
+.row.event-row {
+  margin: 0px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.no-event {
+  margin-top: 10px;
+}
+
+#nav-button {
+  width: 98%;
+  border: 1px solid white;
+  background-color: #000;
+  color: #fff;
+}
+
+#nav-button:hover {
+  width: 100%;
+  border: 1px solid black;
+}
+
+a.btn.btn-primary.btn-lg.create-event-button {
+  border: 1px solid white;
+  background-color: #000;
+  color: #fff;
+}
+
+a.btn.btn-primary.btn-lg.create-event-button:hover {
+  border: 1px solid black;
+}
+
+.row.controls {
+  margin-bottom: 30px;
+  padding: 0px 15px;
+}
+
+#distance {
+  margin: 20px 0px;
+  height: 30px;
+  width: 90px;
+}
+
+.date-h3 {
+  height: 30px;
+  margin: 0;
+}
+
+hr {
+  background-color: black;
+  color: black;
+  height: 10px !important;
+  border: 0;
+  margin-bottom: 5px !important;
+}
+
+hr.date-hr {
+  height: 2px !important;
+  color: black;
+  margin-top: 0px;
+}
+
+.col-md-12.filter-col {
+  margin-bottom: 15px;
+}
+
+.col-md-3.filter-col-3 {
+  margin-bottom: 5px;
+}
+
+#filter {
+  width: 100%;
+  border: 1px solid white;
+  color: #fff;
+  background-color: #000;
+}
+
+#filter:hover {
+  width: 100%;
+  border: 1px solid black;
+}
+
+#teams, #pokemon-farming, #nest-farming {
+  display: none;
+}
+
+.panel.panel-default.event-panel {
+  border: 0px;
+}
+
+.date-div {
+  background-color: white;
+  height: 50px;
+  color: black;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+}
+
+.col-md-12.event-col-12 {
+  padding: 0px;
+  margin: 0px;
+}
+
+.col-md-12.event-sub-col-12 {
+  padding: 0px 30px;
+  margin: 0px;
+}
+
+
+.panel-body.event-body {
+  padding: 0;
+}
+
+.event-body.panel-body {
+  padding: 0;
+}
+
+.text-long {
+  word-break: break-all;
+}
+
+.admin-image {
+  height: 64px;
+  width: 128px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.event-break {
+  color: #000000;
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.event-li {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.event-text-cols {
+  margin-bottom: 30px;
+}
+
+.event-list {
+  padding: 0;
+  margin-bottom: 0px;
+  height: 100%;
+  overflow-y: auto;
+  list-style: none;
+}
+
+.event-image {
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+
+.event-image.pokemon {
+  width: 50%;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, 10%);
+  border: 0px solid black;
+}
+
+.col-md-12.poke-catch {
+  height: 200px;
+  width: 100%;
+  border: 1px solid black;
+  background-size: cover;
+}
+
+.event-description {
+  word-break: break-all;
+
+}
+
+.event-location {
+
+}
+
+.event-description {
+
+}
+
+.col-md-12.event-col {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-style: groove;
+  border-color: black;
+  border-width: 1px;
+  background-color: #d6d6c2;
+
+}
+
+.event-time {
+
+}
+
+.event-users {
+  margin-bottom: 0px;
+
+}
+
+h1.event-title {
+  margin-bottom: 30px;
+}
+
+.btn.create-event-button {
+  width: 100%;
+}
+
+.col-md-12.button-col {
+  margin-bottom: 7px;
+  height: 45px;
+  padding: 0 30px;
+}
+
+@media all and (max-width: 991px) {
+  #nav-button {
+    margin-bottom: 10px;
+  }
+}

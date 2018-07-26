@@ -1,0 +1,252 @@
+#app {
+  margin-bottom: 50px;
+}
+
+@font-face {
+    font-family: 'PokeFont';
+    src: url('/fonts/pocket_monk-webfont.woff') format("woff");
+}
+
+b.poke-title {
+  font-family: 'PokeFont';
+  color: yellow;
+  background-color: red;
+  border: 1px solid white;
+  padding: 2px;
+  font-size: 30px;
+}
+
+.col-md-12.notification, .col-md-6.notification, .col-md-4.notification {
+  padding: 0px 5px;
+}
+
+.btn.btn-default.notification {
+  width: 100%;
+}
+
+button {
+  background-color: black !important;
+  color: white !important;
+  border: 0px solid black !important;
+}
+
+button:hover {
+  border: 1px solid white !important;
+}
+
+body, #app {
+  min-height: 84vh !important;
+}
+
+.panel.panel-body {
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+}
+
+a.dropdown-a {
+  padding: 10px !important;
+}
+
+ul.dropdown-menu {
+  padding : 0px;
+}
+
+span.icon-bar {
+  background-color: white !important;
+}
+
+
+a.navbar-brand, a.navbar-login {
+  color: white !important;
+}
+
+.col-md-12.footer {
+  background-color: black;
+  padding: 0;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form, nav.navbar.navbar-default.navbar-static-top {
+  background-color: black;
+}
+
+.footer-ul {
+  padding: 0;
+  list-style: none;
+}
+
+.footer-link-h3 {
+  color: white;
+}
+
+.panel.panel-body.top {
+  padding: 0;
+}
+
+hr {
+  margin: 0 !important;
+  height: 2px;
+  color: black;
+}
+
+#no-notifications {
+  margin: 20px 0px;
+}
+
+@media all and (min-width: 991px) {
+  #submit-location, #close-modal {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 991px) {
+  #submit-location, #close-modal {
+    margin-bottom: 5px;
+    height: 24px;
+    padding: 0px;
+    width: 100%;
+  }
+
+  .btn.btn-default.notification {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+
+@media all and (max-width: 768px) {
+
+  .dropdown-backdrop{
+    position: static;
+  }
+
+  a.dropdown-toggle.nav-toggle {
+    color: white !important;
+  }
+
+  a.dropdown-toggle.nav-toggle:active, a.dropdown-toggle.nav-toggle:hover {
+    color: black !important;
+    background-color: white !important;
+  }
+
+  a.dropdown-toggle.nav-toggle:focus {
+    color: black !important;
+    background-color: white !important;
+  }
+
+  li.dropdown.open {
+    background-color: white;
+  }
+
+  #location-dropdown-ul {
+    padding: 0;
+    width: 100%;
+    height: 220px;
+  }
+
+  #notifications-ul, .panel.panel-body.top {
+    word-break: normal;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 279px;
+  }
+}
+
+@media all and (min-width: 768px) {
+
+  a.dropdown-toggle.nav-toggle {
+    color: white !important;
+  }
+
+  a.dropdown-toggle.nav-toggle:active, a.dropdown-toggle.nav-toggle:hover {
+    color: black !important;
+    background-color: white !important;
+  }
+
+  a.dropdown-toggle.nav-toggle:focus {
+    color: black !important;
+    background-color: white !important;
+  }
+
+  .nav.navbar-nav.navbar-right {
+    height: 50px;
+  }
+  a.dropdown-toggle.nav-toggle {
+    height: 50px;
+  }
+
+  #location-dropdown-ul {
+    padding: 0;
+    width: 300px;
+  }
+
+  #notifications-ul, .panel.panel-body.top {
+    width: 450px;
+    padding: 0;
+    max-height: 279px;
+    overflow-y: auto;
+  }
+
+  .col-md-6.address, .col-md-6.gps {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.panel.panel-body {
+  white-space: inherit;
+}
+
+div.location-padding, div.notification-padding {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.panel.panel-default.location-panel {
+  margin: 0;
+}
+
+#location-input-address {
+  height: 30px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.col-md-12.address {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 10px;
+}
+
+.modal-title.location, .close.location {
+  display: inline;
+}
+
+#gps-button, #locModalBtn {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 48px;
+}
+
+.modal-footer.location {
+  padding: 15px;
+  height: 80px;
+  text-align: center;
+}
+
+.modal-body.location {
+  height: 140px;
+}
+
+#location-input-state, #location-input-city {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+h5.notify-h5 {
+  word-break: normal;
+}

@@ -1,0 +1,28 @@
+#mark-all {
+	width: 100%;
+	height: 32px;
+}
+
+.panel {
+	margin: 0;
+}
+
+.notification-container {
+	width: 80%;
+}
+
+.notification-ul {
+	list-style: none;
+  padding: 0;
+  max-height: 497px;
+  min-height: 497px;
+  overflow-y: auto;
+  word-wrap: break-word;
+}
+
+.notify-h5 {
+	text-align: left;
+}
+
+.mark-read.btn.btn-default, .poketracker.btn.btn-default {
+}

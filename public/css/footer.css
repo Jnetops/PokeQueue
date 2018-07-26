@@ -1,0 +1,16 @@
+h5.footer-h5 {
+  color: white;
+}
+
+a.footer {
+  color: white !important;
+}
+
+.col-md-6.footer {
+  margin-bottom: 20px;
+}
+
+.col-md-12.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

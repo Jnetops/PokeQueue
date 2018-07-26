@@ -1,0 +1,175 @@
+.alert h4.error-message {
+  margin: 20px 0px;
+  color: black;
+}
+
+.form-group.time-entry {
+  margin: 0px;
+}
+
+.input-group.date.form_datetime.col-md-9.text-center {
+  padding: 0px 15px;
+}
+
+#event-form {
+  margin-bottom: 0px;
+}
+
+#event-time-ampm {
+  height: 32px;
+  display: block;
+  width: 100%;
+}
+
+#event-time {
+  height: 32px;
+  display: block;
+  width: 100%;
+}
+
+.panel.panel-heading, .panel.panel-body, .panel.panel-footer, .panel.panel-default {
+  margin: 0px;
+}
+
+.form-control.teams, .teams {
+  display: none;
+}
+
+.form-control.pokemon-farming, .pokemon-farming {
+  display: none;
+}
+
+.form-control.nest-farming, .nest-farming {
+  display: none;
+}
+
+.form-control.privacy-sub, .privacy-sub {
+  display: none;
+}
+
+#day {
+  width: 100%;
+}
+
+#event-create {
+  background-color: black;
+  color: white;
+  border: 1px solid white !important;
+}
+
+#event-create:hover {
+  border: 1px solid black !important;
+}
+
+#panel-title {
+  text-align: center;
+
+}
+
+select, input, textarea, button {
+  border: 1px solid black !important;
+  border-radius: 2px !important;
+}
+
+textarea {
+  resize: none;
+}
+
+#address, #day, #month, #year, #event-time, #type, #nest-farming, #teams, #pokemon-farming, #city, #state, #group-count, #queue {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 32px;
+  margin-bottom: 20px;
+}
+
+#address, #description, #queue {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+#group-count {
+  width: 10%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+#city, #state {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+input {
+  padding-left: 15px;
+}
+
+div.large-padding {
+  padding-left: 10.75%;
+  padding-right: 10.75%;
+}
+
+@media all and (max-width: 991px) {
+  #address, #city, #state, #group-count, #description, #queue {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  div.large-padding {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #event-create {
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 991px) {
+  #event-create {
+    width: 100%;
+  }
+}
+
+#type, #nest-farming, #teams, #pokemon-farming {
+  width: 100%;
+}
+
+#queue {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+img.event-image {
+  width:80%;
+  height: 200px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.panel.panel-footer.event {
+  margin: 0;
+  padding: 0;
+  height: 54px;
+  border: 1px solid black;
+  border-top: 0px;
+  padding-top: 10px;
+}
+
+.panel.panel-body.event {
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.panel.panel-heading.event {
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid black;
+  border-bottom: 0px;
+  height: 79px;
+  color:white;
+  background-color: black;
+}

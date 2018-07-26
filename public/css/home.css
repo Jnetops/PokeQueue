@@ -1,0 +1,234 @@
+body {
+  background-color: white !important;
+}
+
+.not-known {
+  color: red;
+}
+
+a.all:hover, a.all {
+    color: lightblue !important;
+}
+
+
+.alert h4.error-message {
+  margin: 20px 0px;
+  color: black;
+}
+
+.event-image, .group-image {
+  margin: 0 auto;
+  height: 200px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.group-image.pokemon {
+  width: 50%;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, 10%);
+  border: 0px solid black;
+}
+
+.event-image.pokemon {
+  width: 50%;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, 10%);
+  border: 0px solid black;
+}
+
+.col-md-12.poke-catch {
+  height: 200px;
+  width: 100%;
+  border: 1px solid black;
+  background-size: cover;
+}
+
+.raid-group-image {
+  height: 120px;
+  width: 120px;
+  margin: 0 auto;
+}
+
+img#poke-tracker-image {
+  height: 100px;
+  width: 100px;
+}
+
+
+.btn.btn-default.view-group, .btn.btn-default.view-event {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid white;
+}
+
+.btn.btn-default.view-group:hover, .btn.btn-default.view-event:hover {
+  border: 1px solid black;
+}
+
+/* pokemon / raid css */
+.create-raid-group, #view-all-raids, #view-all-pokemon {
+  width: 100%;
+}
+
+.btn.btn-default.create-raid-group, #create-pokemon, #create-raid, #create-event, #create-group {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  white-space: normal;
+}
+
+.btn.btn-default.create-raid-group:hover, #create-pokemon:hover, #create-raid:hover, #create-event:hover, #create-group:hover {
+  border: 1px solid white;
+}
+
+#create-pokemon, #create-raid, #create-event, #create-group {
+  width: 80%;
+}
+
+.raid-ul, .pokemon-ul, .event-ul, .group-ul {
+  padding: 0px;
+  overflow-y: auto;
+  word-wrap: break-word;
+}
+
+.inactive {
+  background-color: white;
+}
+
+.tracker-title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 3px 3px 0px 0px;
+  background-color: black;
+  color: white;
+  border-left: 1px groove black;
+  border-right: 1px groove black;
+  border-top: 1px groove black;
+}
+.raid-ul, .pokemon-ul, .event-ul, .group-ul {
+  list-style-type: none;
+  margin-bottom: 0px;
+}
+
+.raid-li, .pokemon-li, .event-li, .group-li {
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+
+@media all and (min-width: 991px) {
+  .col-md-6.poke-tracker, .col-md-6.raid-tracker, .col-md-6.event, .col-md-6.group {
+    margin-bottom: 20px;
+  }
+
+  .col-md-6.height, .col-md-12.height {
+    min-height: 120px;
+  }
+
+  .panel-body.raid {
+    height: 185px;
+  }
+  .raid-ul, .pokemon-ul, .inactive {
+    height: 345px;
+    border-style: groove;
+    border-color: black;
+    border-width: 1px;
+  }
+
+  .inactive-event, .inactive-group {
+    height: 450px;
+    border-style: groove;
+    border-color: black;
+    border-width: 1px;
+  }
+
+  .event-ul, .group-ul {
+    height: 450px;
+    border-style: groove;
+    border-color: black;
+    border-width: 1px;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .col-md-6.poke-tracker, .col-md-6.raid-tracker, .col-md-6.event, .col-md-6.group {
+    margin-bottom: 20px;
+  }
+
+  .raid-ul {
+    height: 428px;
+    border-style: groove;
+    border-color: black;
+    border-width: 1px;
+  }
+  .pokemon-ul, .inactive {
+    height: 345px;
+    border-style: groove;
+    border-color: black;
+    border-width: 1px;
+  }
+
+  .col-md-6.height, .col-md-12.height {
+    min-height: 100px;
+  }
+
+  .event-ul {
+    height: 615px;
+    border-style: groove;
+    border-color: black;
+    border-width: 1px;
+  }
+
+  .group-ul {
+    height: 600px;
+    border-style: groove;
+    border-color: black;
+    border-width: 1px;
+  }
+
+}
+
+.panel-heading.pokemon, .panel-heading.event, .panel-heading.group {
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.group-time, .event-date {
+  margin-bottom: 20px;
+}
+
+.panel-heading.event, .panel-heading.group {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+}
+
+.panel-body.pokemon {
+  padding-top: 0px;
+}
+
+.panel.pokemon, .panel.raid, .panel.event, .panel.group {
+  margin-bottom: 2px;
+  border-radius: 0px;
+}
+
+a#specific-pokemon {
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+a#specific-pokemon:hover {
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}

@@ -1,0 +1,369 @@
+.shoutbox { width: 100%; bottom: -1px; margin-bottom: 0; border-radius: 0; }
+.profile-avatar { position: relative; z-index: 20; background-size: cover; background-position: center center; border-radius: 100%; -webkit-transition: opacity 0.3s ease-in; transition: opacity 0.3s ease-in; }
+.profile-avatar.tiny { width: 46px; height: 40px; border: none; }
+.chat-panel-heading.panel-heading { border-radius: 0; padding: 0; height: 36px;}
+.profile-avatar { box-shadow: none; }
+.chat-list-group { height: 200px; overflow-y: auto; margin-bottom: 0; padding-left: 0px; }
+.li-group-item-heading, .shoutbox p { margin-left: 48px; padding-right: 30px; }
+.li-group-item { font-size: 12px; overflow: hidden; word-break: break-all; border-bottom: 1px solid black; }
+
+.col-md-12.admin-title {
+  background-color: black;
+  color: white;
+}
+
+.col-md-12.iframe-col {
+  margin-top: 10px;
+}
+
+html, body, iframe {
+    touch-action: auto;
+}
+
+.btn.btn-default.add-group {
+  width: 150px;
+  float: right;
+}
+
+.btn.btn-default.add-group:disabled {
+  color: black !important;
+  background-color: white !important;
+  border: 1px solid black !important;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.li-group-item:last-child {
+  margin-bottom: 0;
+}
+
+.li-group-item:first-child {
+  margin-bottom: 0;
+}
+
+.panel-default.status-panel {
+  margin-bottom: 10px;
+}
+
+.panel-default>.panel-heading {
+  background-color: black !important;
+  color: white !important;
+  border: 1px solid black !important;
+}
+
+.panel-default>.panel-body {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.panel-default>.panel-footer, input {
+  border: 1px solid black;
+}
+
+input {
+  border-radius: 2px;
+  padding-left: 5px;
+}
+
+button {
+  background-color: black !important;
+  color: white !important;
+  border: 0px solid black !important;
+}
+
+button:hover {
+  border: 1px solid white !important;
+}
+
+.col-md-12.team-image {
+   background-repeat: no-repeat;
+   height: 60px;
+   background-size: 30% 100%;
+   border-style: solid;
+   border-width: 1px;
+   border-color: black;
+}
+
+#trainer-level-display {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  margin: 0;
+  color: white;
+}
+
+#trainer-name-display {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: white;
+}
+
+.group-time {
+  display: inline-block;
+}
+
+.li-group-item {
+  position: relative;
+  display: block;
+  padding: 10px 0px;
+  background-color: #fff;
+  border-bottom: : 1px solid black;
+}
+
+.col-md-12.chat-col {
+  padding: 0;
+}
+
+.chat-message {
+  width: 100%;
+  height: 24px;
+}
+
+.trainer-name {
+  margin-bottom: 10px;
+}
+
+.chat-window {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.chat-message-submit {
+  margin-top: 5px;
+  width: 100%;
+  height: 36px;
+}
+
+.panel-body.chat-panel-body {
+  padding: 0;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.btn-group.chat-button-group {
+  display: inline;
+}
+
+.btn.chat-general-button {
+  height: 100%;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+.btn.chat-location-button {
+  height: 100%;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+
+.group-image {
+  height: 200px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+#type {
+  height: 202px;
+  border: 1px solid black;
+}
+
+.group-image.pokemon {
+  width: 50%;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, 10%);
+  border: 0px solid black;
+}
+
+.col-md-12.poke-catch {
+  height: 200px;
+  width: 100%;
+  border: 1px solid black;
+  background-size: cover;
+}
+
+.raid-group-image {
+  height: 200px;
+  width: 200px;
+}
+
+#location {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#description {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.col-md-12.user-buttons {
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+.col-md-6.group-buttons {
+  margin-bottom: 5px;
+}
+
+#invite-button {
+  width: 100%;
+}
+#transfer-admin-button {
+  width: 100%;
+}
+
+#disband-button {
+  width: 100%;
+}
+
+#finalize-button {
+  width: 100%;
+}
+
+#queue-button {
+  width: 100%;
+}
+
+#user-list {
+  list-style: none;
+  padding: 0 15px;
+  margin-bottom: 0;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.panel-body.users {
+  border: 1px solid black;
+  height: 379px;
+  padding: 0px;
+}
+
+.panel-body.info-body {
+  border: 1px solid black;
+}
+
+#request-invite-button, #leave-group-button {
+  width: 100%;
+}
+
+.modal-header .close {
+  display: inline;
+}
+
+#transfer-admin-modal-title {
+  display: inline;
+  text-align: center;
+}
+
+#transfer-error {
+  display: inline;
+  text-align: center;
+}
+
+.panel.information {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.user-admin-li {
+  padding-left: 10px;
+  border-style: groove;
+  border-color: black;
+  border-width: 1px;
+  background-color: red;
+}
+
+.user-li {
+  border: 1px solid black;
+  height: 60px;
+  margin-top: 10px;
+
+}
+
+.user-li.admin {
+  border: 1px solid black;
+  height: 100px;
+  margin-top: 10px;
+}
+
+#user-list-col {
+  width: 100%;
+}
+
+#description {
+  word-break: break-all;
+}
+
+@media all and (min-width: 991px) {
+  .modal-body {
+    height: 60px;
+  }
+
+  .btn.btn-default.login {
+    width: 150px;
+    margin: 0px 5px;
+    float: right;
+  }
+
+  .login-p {
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+	display: inline;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .modal-body {
+    height: 110px;
+  }
+  h4.admin-title-h4 {
+    margin: 0px;
+    height: 39px;
+    padding-top: 10px;
+  }
+
+  .login-p {
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	display: inline;
+	float: right;
+  }
+
+  .btn.btn-default.login {
+    width: 150px;
+    margin: 5px 0px;
+    float:right;
+  }
+}
+
+@media all and (max-width: 396px) {
+
+  .login-p {
+	display: none;
+  }
+
+  .btn.btn-default.login {
+    width: 100%;
+  }
+}
+
+#group-invite-modal-title {
+  display: inline;
+}
+
+.btn.btn-primary, .btn.btn-secondary {
+  width: 100%;
+  margin-bottom: 10px;
+}

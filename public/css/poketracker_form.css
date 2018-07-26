@@ -1,0 +1,110 @@
+body {
+  overflow-x: hidden;
+}
+
+
+.alert h4.error-message {
+  margin: 20px 0px;
+  color: black;
+}
+
+select, input, textarea, button {
+  border: 1px solid black !important;
+  border-radius: 0px !important;
+  padding-left: 15px;
+}
+
+textarea {
+  resize: none;
+}
+
+.btn.btn-default.poketracker-add {
+  width: 80%;
+  background-color: black;
+  color: white;
+  border: 1px solid white !important;
+}
+
+.btn.btn-default.poketracker-add:hover {
+  border: 1px solid black !important;
+}
+
+.row-margin {
+  margin-top: 35px;
+  margin-bottom: 45px;
+}
+
+.help-block {
+  color: red !important;
+}
+
+input#pokemon_lat, input#pokemon_lon, input#pokemon_cp, input#pokemon_iv, input#pokemon_expire_hour, input#pokemon_expire_minute, input#pokemon_expire_hour, input#pokemon_expire_minute, .btn.btn-default.poketracker-add {
+  display: block;
+  width: 100%;
+}
+
+.col-md-12.submit-col {
+  padding: 0px 45px;
+}
+
+select#pokemon_id {
+  width: 100%;
+  margin: 0 auto;
+}
+
+select#pokemon_id, input#pokemon_lat, input#pokemon_lon, input#pokemon_cp, input#pokemon_iv {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media all and (max-width: 991px) {
+
+}
+
+img.pokemon-tracker-image {
+  width:100%;
+  height: 200px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+select, input {
+  height: 32px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px !important;
+}
+
+h4.text-center.30-warning {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.panel.panel-footer.poke {
+  margin: 0;
+  padding: 0;
+  height: 54px;
+  border: 1px solid black;
+  border-top: 0px;
+  padding-top: 10px;
+}
+
+.panel.panel-body.poke {
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.panel.panel-heading.poke {
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid black;
+  border-bottom: 0px;
+  height: 79px;
+  color:white;
+  background-color: black;
+}

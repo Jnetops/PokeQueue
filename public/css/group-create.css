@@ -1,0 +1,136 @@
+
+.alert h4.error-message {
+  margin: 20px 0px;
+  color: black;
+}
+
+.form-control.teams, .teams {
+  display: none;
+}
+
+.form-control.pokemon-farming, .pokemon-farming {
+  display: none;
+}
+
+.form-control.nest-farming, .nest-farming {
+  display: none;
+}
+
+.row.group-count {
+  margin-top: 20px;
+}
+
+select, input, textarea, button {
+  border: 1px solid black !important;
+  border-radius: 2px !important;
+}
+
+textarea {
+  resize: none;
+}
+
+#queue {
+  width: 80%;
+  background-color: black;
+  color: white;
+  border: 1px solid white !important;
+}
+
+#queue:hover {
+  border: 1px solid black !important;
+}
+
+hr {
+  border-top: 2px solid black !important;
+}
+
+#address, #type, #nest-farming, #teams, #pokemon-farming, #city, #state, #group-count, #queue {
+  height: 32px;
+  margin-bottom: 20px;
+}
+
+#address, #description, #queue {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+#group-count {
+  width: 10%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+#city, #state {
+  width: 100%;
+  margin: 0 auto;
+}
+
+div.large-padding {
+  padding-left: 10.75%;
+  padding-right: 10.75%;
+}
+
+@media all and (max-width: 991px) {
+  #address, #city, #state, #group-count, #description, #queue {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .description {
+    margin-top: 0px;
+  }
+
+  div.large-padding {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media all and (min-width: 991px) {
+  .description {
+    margin-top: 20px;
+  }
+}
+
+input {
+  padding-left: 15px;
+}
+
+#type, #nest-farming, #teams, #pokemon-farming {
+  width: 100%;
+}
+
+img.group-image {
+  width:80%;
+  height: 200px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.panel.panel-footer.group {
+  margin: 0;
+  padding: 0;
+  height: 54px;
+  border: 1px solid black;
+  border-top: 0px;
+  padding-top: 10px;
+}
+
+.panel.panel-body.group {
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.panel.panel-heading.group {
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid black;
+  border-bottom: 0px;
+  height: 79px;
+  color:white;
+  background-color: black;
+}

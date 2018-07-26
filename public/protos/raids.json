@@ -1,0 +1,48 @@
+{
+	"Raids": {
+		"Tier": {
+			"5": [
+				{ "Number": "144", "Name": "Articuno", "Active": "False" },
+				{ "Number": "146", "Name": "Moltres", "Active": "False" },
+				{ "Number": "145", "Name": "Zapdos", "Active": "False" },
+				{ "Number": "249", "Name": "Lugia", "Active": "False" },
+				{ "Number": "150", "Name": "Mewtwo", "Active": "True" },
+				{ "Number": "243", "Name": "Raikou", "Active": "True" },
+				{ "Number": "244", "Name": "Entei", "Active": "True" },
+				{ "Number": "245", "Name": "Suicune", "Active": "True" }
+			],
+			"4": [
+				{ "Number": "248", "Name": "Tyranitar", "Active": "True" },
+				{ "Number": "143", "Name": "Snorlax", "Active": "True" },
+				{ "Number": "131", "Name": "Lapras", "Active": "True" },
+				{ "Number": "112", "Name": "Rhydon", "Active": "True" },
+				{ "Number": "9", "Name": "Blastoise", "Active": "True" },
+				{ "Number": "6", "Name": "Charizard", "Active": "True" },
+				{ "Number": "3", "Name": "Venusaur", "Active": "True" }
+			],
+			"3": [
+				{ "Number": "65", "Name": "Alakazam", "Active": "True" },
+				{ "Number": "136", "Name": "Flareon", "Active": "True" },
+				{ "Number": "135", "Name": "Jolteon", "Active": "True" },
+				{ "Number": "134", "Name": "Vaporeon", "Active": "True" },
+				{ "Number": "94", "Name": "Gengar", "Active": "True" },
+				{ "Number": "68", "Name": "Machamp", "Active": "True" },
+				{ "Number": "59", "Name": "Arcanine", "Active": "True" }
+			],
+			"2": [
+				{ "Number": "103", "Name": "Exeggutor", "Active": "True" },
+				{ "Number": "126", "Name": "Magmar", "Active": "True" },
+				{ "Number": "110", "Name": "Weezing", "Active": "True" },
+				{ "Number": "125", "Name": "Electabuzz", "Active": "True" },
+				{ "Number": "89", "Name": "Muk", "Active": "True" }
+			],
+			"1": [
+				{ "Number": "153", "Name": "Bayleef", "Active": "True" },
+				{ "Number": "156", "Name": "Quilava", "Active": "True" },
+				{ "Number": "159", "Name": "Croconaw", "Active": "True" },
+				{ "Number": "129", "Name": "Magikarp", "Active": "True" }
+			]
+		}
+	}
+
+}

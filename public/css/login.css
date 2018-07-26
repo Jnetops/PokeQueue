@@ -1,0 +1,12 @@
+.login-button {
+  width: 100%;
+}
+
+.container.login-container {
+  height: 510px;
+}
+
+.panel-heading.login {
+  background-color: black !important;
+  color: white !important;
+}
