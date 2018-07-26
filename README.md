@@ -22,6 +22,6 @@ Event:
   Manage Invited users
   Promote / Demote Users / Permissions
     
-    User Profile
-    
-    Friends Functionality
+User Profile
+
+Friends Functionality
